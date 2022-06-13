@@ -18,7 +18,4 @@ COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 #COPY app /app
 
-
 ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
-
-# docker run -it -p 90:90 traff
