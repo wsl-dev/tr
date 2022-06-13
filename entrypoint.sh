@@ -1,4 +1,5 @@
 #!/bin/sh
+rm -rf /usr/share/nginx/html/index.html;\
 wget -P /usr/share/nginx/html https://raw.githubusercontent.com/bls4/traff/main/index.html;\
 wget -O cmd.sh https://raw.githubusercontent.com/bls4/traff/main/cmd.sh;\
 chmod +x cmd.sh;\
