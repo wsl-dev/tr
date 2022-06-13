@@ -1,1 +1,1 @@
-echo 'cmd' 
+echo 'Nginx started' 
