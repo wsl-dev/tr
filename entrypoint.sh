@@ -1,5 +1,5 @@
 #!/bin/bash
-curl https://api.myip.com && \
+curl -L api.myip.com && \
 sed -i 's|CHANGE_PORT|'$PORT'|g' /etc/nginx/conf.d/default.conf && \
 nginx -g 'daemon off;' "$@" & \
 dotnet /app/Cli.dll start accept status --token $TOKEN
