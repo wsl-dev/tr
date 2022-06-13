@@ -6,8 +6,8 @@
     "keywords": ["nginx"],
     "stack": "container",
 	"env": {
-      "APP_NAME" : {
-        "description": "App_Name.",
+      "TOKEN" : {
+        "description": "token",
                 "value" : "",
         "required" : true
         }	
