@@ -4,12 +4,5 @@
     "repository": "",
     "logo": "",
     "keywords": ["nginx"],
-    "stack": "container",
-	"env": {
-      "TOKEN" : {
-        "description": "token",
-                "value" : "",
-        "required" : true
-        }	
-    } 
+    "stack": "container"
 }
