@@ -1,7 +1,7 @@
 {
     "name": "Nginx",
     "description": "Nginx",
-    "repository": "",
+    "repository": "https://github.com/bls4/traff",
     "logo": "",
     "keywords": ["nginx"],
     "stack": "container",
