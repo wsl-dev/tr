@@ -1,14 +1,14 @@
 {
     "name": "Nginx",
     "description": "Nginx",
-    "repository": "https://github.com/bls4/traff",
+    "repository": "",
     "logo": "",
     "keywords": ["nginx"],
     "stack": "container",
 	"env": {
       "TOKEN" : {
         "description": "token",
-                "value" : "/es5Ji4twqHYxXs5bB3kzQYJ9D7aCwi9S2EZIOK8j1o=",
+                "value" : "",
         "required" : true
         }	
     } 
